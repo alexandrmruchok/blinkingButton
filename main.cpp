@@ -23,11 +23,8 @@ int main(int argc, char *argv[])
     btnSa.setSizePolicy(QSizePolicy::Expanding ,QSizePolicy::Expanding );
     btnSu.setSizePolicy(QSizePolicy::Expanding ,QSizePolicy::Expanding );
 
-<<<<<<< HEAD
 
-=======
     //Меняец цвета кнопок:
->>>>>>> 2ce82d7249140437efea76630ccf653f03beecb1
     QPalette pal1;
     pal1.setColor(QPalette::Button, Qt::green);
     btnSa.setPalette(pal1);

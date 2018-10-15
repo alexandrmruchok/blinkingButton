@@ -20,7 +20,7 @@ void BlinkingButton::changeColor()
     update();
 }
 
-void BlinkingButton::paintEvent(QPaintEvent *event){
+void BlinkingButton::paintEvent(QPaintEvent *){
     QPainter painter(this);
 
     painter.setBrush(QBrush(m_backgroundColor));
