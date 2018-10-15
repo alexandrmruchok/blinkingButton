@@ -23,6 +23,7 @@ int main(int argc, char *argv[])
     btnSa.setSizePolicy(QSizePolicy::Expanding ,QSizePolicy::Expanding );
     btnSu.setSizePolicy(QSizePolicy::Expanding ,QSizePolicy::Expanding );
 
+
     QPalette pal1;
     pal1.setColor(QPalette::Button, Qt::green);
     btnSa.setPalette(pal1);
