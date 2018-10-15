@@ -7,7 +7,6 @@ class BlinkingButton : public QPushButton
 {
     Q_OBJECT
 public:
-  //  BlinkingButton(QWidget *parent = 0);
     BlinkingButton(const QString &text = "Caption", QWidget *parent = 0);
     ~BlinkingButton();
     void setPalette(const QPalette &);

@@ -1,9 +1,5 @@
 #include "BlinkingButton.h"
 
-//BlinkingButton::BlinkingButton(QWidget *parent)
-//{
-//    BlinkingButton("Caption",parent);
-//}
 
 BlinkingButton::BlinkingButton(const QString &text, QWidget *parent)
     : QPushButton(text, parent), m_backgroundColor(baseColor())
