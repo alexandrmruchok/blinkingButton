@@ -23,6 +23,7 @@ int main(int argc, char *argv[])
     btnSa.setSizePolicy(QSizePolicy::Expanding ,QSizePolicy::Expanding );
     btnSu.setSizePolicy(QSizePolicy::Expanding ,QSizePolicy::Expanding );
 
+    //Меняец цвета кнопок:
     QPalette pal1;
     pal1.setColor(QPalette::Button, Qt::green);
     btnSa.setPalette(pal1);
@@ -31,8 +32,7 @@ int main(int argc, char *argv[])
     pal2.setColor(QPalette::Button, Qt::red);
     btnSu.setPalette(pal2);
 
-
-
+    //Меняем шрифт кнопки:
     QFont boldFont;
     boldFont.setBold(true);
     btnSu.setFont(boldFont);
